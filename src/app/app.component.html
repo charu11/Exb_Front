@@ -1,17 +1,17 @@
-<mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar-none scrolling-navbar ie-nav" [containerInside]="false">
+<mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar scrolling-navbar ie-nav" [containerInside]="false">
         <mdb-navbar-brand>
             <a class="logo navbar-brand" href="#"><strong>Explore belihuloya</strong></a>
         </mdb-navbar-brand>
         <links>
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active waves-light" mdbWavesEffect>
-                    <a class="nav-link">Home<span class="sr-only">(current)</span></a>
+                    <a routerLink="/">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item  waves-light" mdbWavesEffect>
-                    <a class="nav-link">Explore</a>
+                    <a routerLink="/explore">Explore</a>
                 </li>
                 <li class="nav-item waves-light" mdbWavesEffect>
-                    <a class="nav-link">info</a>
+                    <a routerLink="/info">Info</a>
                 </li>
                 <li class="nav-item waves-light" mdbWavesEffect>
                     <a class="nav-link"></a>
@@ -20,7 +20,7 @@
             
             <ul>
                 <li class="nav-item waves-light" mdbWavesEffect>
-                    <a class="nav-link">Admin Login</a>
+                    <a routerlink="/adminLogin">Admin Login</a>
                 </li>
                
             </ul>
@@ -87,7 +87,7 @@
   <!--making cards-->
 
        <div class="row">  
-  <div class="col-lg-4 col-md-12">
+  <div class="col-lg-3 col-md-12">
         <!--Card-->
         <mdb-card cascade="true" narrower="true">
       
@@ -131,7 +131,7 @@
         <!--/.Card-->
       </div>
       <div class="clearfix visible-xs"></div>
-      <div class="col-lg-4 col-md-6">
+      <div class="col-lg-3 col-md-6">
         <!--Card-->
         <mdb-card cascade="true" wider="true">
       
@@ -163,7 +163,7 @@
         <!--/.Card-->
       </div>
       <div class="clearfix visible-xs"></div>
-      <div class="col-lg-4 col-md-6">
+      <div class="col-lg-3 col-md-6">
         <!--Card-->
         <mdb-card cascade="true">
       
