@@ -5,13 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
-import { NavbarModule, WavesModule } from 'angular-bootstrap-md'
+import { NavbarModule, WavesModule, CardsFreeModule } from 'angular-bootstrap-md'
+import { HotelComponent } from './hotel/hotel.component'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HotelComponent
   ],
   imports: [
+    CardsFreeModule,
     MDBBootstrapModule,
     WavesModule,
     NavbarModule,
