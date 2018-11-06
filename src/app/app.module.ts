@@ -10,14 +10,17 @@ import { HotelComponent } from './hotel/hotel.component';
 import { InfoComponent } from './info/info.component';
 import { ExploreComponent } from './explore/explore.component';
 
+
 @NgModule({
   declarations: [
+    
     AppComponent,
     HotelComponent,
     InfoComponent,
     ExploreComponent
   ],
   imports: [
+    
     CardsFreeModule,
     MDBBootstrapModule,
     WavesModule,
@@ -26,7 +29,7 @@ import { ExploreComponent } from './explore/explore.component';
     AppRoutingModule
   ],
   schemas: [NO_ERRORS_SCHEMA],
-  providers: [],
+  
   bootstrap: [AppComponent]
 })
 export class AppModule { }
